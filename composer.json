@@ -1,0 +1,27 @@
+{
+	"name": "clear01/widgets-core",
+	"description": "Widgets core model. Framework independent.",
+	"minimum-stability": "stable",
+	"license": "proprietary",
+	"keyword": ["widget", "gadget"],
+	"authors": [
+		{
+			"name": "Clear01 Development",
+			"email": "development@clear01.com"
+		}
+	],
+    "autoload": {
+        "psr-0": {
+            "Clear01\\Widgets\\": "src/"
+        }
+	},
+	"autoload-dev": {
+		"psr-0": {
+			"Clear01Tests\\Widgets\\": "tests/"
+		}
+	},
+	"require-dev": {
+		"nette/tester": "^1.7",
+		"mockery/mockery": "^0.9.9"
+	}
+}
